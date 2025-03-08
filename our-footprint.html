@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Travisa - Visa & Immigration Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start --
+        <div class="container-fluid bg-primary px-5 d-none d-lg-block">
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-5 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex">
+                        <a href="#" class="text-muted me-4"><i class="fas fa-envelope text-secondary me-2"></i>Example@gmail.com</a>
+                        <a href="#" class="text-muted me-0"><i class="fas fa-phone-alt text-secondary me-2"></i>+01234567890</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 row-cols-1 text-center mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center" style="height: 45px;">
+                        <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal text-secondary"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal text-secondary"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal text-secondary"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal text-secondary"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-square rounded-circle" href=""><i class="fab fa-youtube fw-normal text-secondary"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-inline-flex align-items-center" style="height: 45px;">
+                        <a href="#" class="text-muted me-2"> Help</a><small> / </small>
+                        <a href="#" class="text-muted mx-2"> Support</a><small> / </small>
+                        <a href="#" class="text-muted ms-2"> Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid nav-bar p-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <img src="img/logo1.png" class="logo img-fluid" alt="logo1">
+                <!-- <img src="img/logo.png" class="logo" alt="Logo"> -->
+            </a>
+
+            <!-- CSS -->
+            <style>
+                .logo {
+                    width: 150px;
+                    /* Adjust width */
+                    height: 200px;
+                    /* Maintain aspect ratio */
+                    max-width: 100%;
+                    /* Ensure responsiveness */
+                }
+            </style>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">What We
+                                Do</span></a>
+                        <div class="dropdown-menu m-0">
+                            <a href="feature.html" class="dropdown-item">Why We Do, What We Do</a>
+                            <a href="ourleadership.html" class="dropdown-item">Our Leadership Team</a>
+
+                        </div>
+                    </div>
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">Our
+                                Infrastructure</span></a>
+                        <div class="dropdown-menu m-0">
+                            <a href="our-footprint.html" class="dropdown-item">Our FootPrint</a>
+                            <a href="ourmanufacturing.html" class="dropdown-item">Our Manufacturing Facility</a>
+                            <a href="ourresearch.html" class="dropdown-item">Our Research & Development</a>
+
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Life at innoform </a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link" data-bs-toggle="dropdown"><span
+                                class="dropdown-toggle">CSR</span></a>
+                        <div class="dropdown-menu m-0">
+                            <a href="csrpolicy.html" class="dropdown-item">CSR Policy</a>
+                            <a href="csrcomittee.html" class="dropdown-item">CSR Comittee</a>
+                            <a href="approved.html" class="dropdown-item">Approved CSR Activities</a>
+
+                        </div>
+                    </div>
+                    <a href="products.html" class="nav-item nav-link ">Products</a>
+                    <a href="contact.html" class="nav-item nav-link ">Contact Us</a>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar & Hero End -->
+
+
+        <style>
+            .containers {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1s ease forwards;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .image-box {
+            flex: 1;
+        }
+
+        .image-box img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.5s ease;
+        }
+
+        .image-box:hover img {
+            transform: scale(1.05);
+        }
+
+        .text-box {
+            flex: 1;
+        }
+
+        .text-box h1, .text-box h2 {
+            position: relative;
+            padding-bottom: 10px;
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .text-box h1:after, .text-box h2:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #007bff;
+            animation: lineWidth 1s ease forwards 0.5s;
+        }
+
+        @keyframes lineWidth {
+            to { width: 50px; }
+        }
+
+        .text-box p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .containers {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+        </style>
+
+
+        <div class="containers">
+            <div class="image-box">
+                <img src="./img/Across-the-Country-01.png" alt="Sample Image">
+            </div>
+            <div class="text-box">
+                <h1>Manufacturing Facility</h1>
+                <h2>
+                    Enriching Human lives through applied innovation</h2>
+                <p>At our state-of-the-art manufacturing facility at Roorkee, Uttarakhand, We cater to OSD requirements for our domestic, institutional and export markets. We are committed to producing high-quality pharmaceutical products that meet the needs of our customers and improve the lives of patients around the world.</p>
+                <p>Our manufacturing unit has been aggregated by
+                    WHO, NAFDAC, PHILIPINES, GHANA, KENYA, ZIMBABWE, and SRILANKA, UGANDA.</p>
+            </div>
+        </div>
+
+        <div class="containers">
+            
+            <div class="text-box">
+                <h1>Manufacturing Facility</h1>
+                <h2>
+                    Enriching Human lives through applied innovation</h2>
+                <p>At our state-of-the-art manufacturing facility at Roorkee, Uttarakhand, We cater to OSD requirements for our domestic, institutional and export markets. We are committed to producing high-quality pharmaceutical products that meet the needs of our customers and improve the lives of patients around the world.</p>
+                <p>Our manufacturing unit has been aggregated by
+                    WHO, NAFDAC, PHILIPINES, GHANA, KENYA, ZIMBABWE, and SRILANKA, UGANDA.</p>
+                    <h4>750+ Authorized Dealers/Stockists</h4>
+                    <p>Our Distribution Network is a well-oiled machinery aimed at ensuring the highest level of service to our customers in the shortest time frame. We have 21 C&F Agents strategically located across the country, who in turn, supply our products to over 750 Authorized Dealers/Stockists.</p>
+            </div>
+            <div class="image-box">
+                <img src="./img/Health-care-professionals-01.png" alt="Sample Image">
+            </div>
+        </div>
+
+
+        <style>
+            /* Business Segments Styling */
+.business-segments .service-item {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+
+/* Hover Effects on Card */
+.business-segments .service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+    background: rgba(208, 0, 0, 0.1);
+}
+
+/* Icon Styling */
+.business-segments .service-item .rounded-circle {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Icon Hover Effect */
+.business-segments .service-item:hover .rounded-circle {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+/* Text Styling */
+.business-segments .service-item h4 {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.business-segments .service-item p {
+    font-size: 1rem;
+}
+
+/* Responsive Grid Layout */
+@media (min-width: 992px) { /* Large Screens - 4 in a row */
+    .business-segments .col-lg-4 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+@media (max-width: 991px) { /* Medium Screens - 2 in a row */
+    .business-segments .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 575px) { /* Small Screens - 1 in a row */
+    .business-segments .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+        </style>
+
+        
+
+        <!-- Business Segments Start -->
+        <div class="container-fluid bg-dark py-5 position-relative business-segments">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h1 class="display-5 text-white mb-3">Our Business Segments</h1>
+                    <p class="text-white-50">We have segmented our Indian business operation into multiple business units based on therapy focus</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <!-- Nucleus -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item bg-dark-subtle rounded h-100 p-4 border-start border-5 border-primary">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fas fa-baby-carriage text-white fs-4"></i>
+                            </div>
+                            <h4 class="mb-3 text-white">Nucleus</h4>
+                            <p class="mb-4 text-white-50">Focused on Women & Child Health</p>
+                        </div>
+                    </div>
+                    <!-- Maximus -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item bg-dark-subtle rounded h-100 p-4 border-start border-5 border-primary">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fas fa-bone text-white fs-4"></i>
+                            </div>
+                            <h4 class="mb-3 text-white">Maximus</h4>
+                            <p class="mb-4 text-white-50">Focused on Bone & Joint Health</p>
+                        </div>
+                    </div>
+                    <!-- Gladius -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item bg-dark-subtle rounded h-100 p-4 border-start border-5 border-primary">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fas fa-head-side-virus text-white fs-4"></i>
+                            </div>
+                            <h4 class="mb-3 text-white">Gladius</h4>
+                            <p class="mb-4 text-white-50">Focused on Chronic pain management</p>
+                        </div>
+                    </div>
+                    <!-- Stimulus -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item bg-dark-subtle rounded h-100 p-4 border-start border-5 border-primary">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fas fa-brain text-white fs-4"></i>
+                            </div>
+                            <h4 class="mb-3 text-white">Stimulus</h4>
+                            <p class="mb-4 text-white-50">Focused on Epilepsy, Sleep and Depression</p>
+                        </div>
+                    </div>
+                    <!-- Impetus -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item bg-dark-subtle rounded h-100 p-4 border-start border-5 border-primary">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fas fa-heartbeat text-white fs-4"></i>
+                            </div>
+                            <h4 class="mb-3 text-white">Impetus</h4>
+                            <p class="mb-4 text-white-50">Focused on Cardiometabolic Disorders</p>
+                        </div>
+                    </div>
+                    <!-- Immunus -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item bg-dark-subtle rounded h-100 p-4 border-start border-5 border-primary">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fas fa-shield-virus text-white fs-4"></i>
+                            </div>
+                            <h4 class="mb-3 text-white">Immunus</h4>
+                            <p class="mb-4 text-white-50">Focused on Auto Immune Disorders</p>
+                        </div>
+                    </div>
+                    <!-- Nutreus -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item bg-dark-subtle rounded h-100 p-4 border-start border-5 border-primary">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fas fa-apple-alt text-white fs-4"></i>
+                            </div>
+                            <h4 class="mb-3 text-white">Nutreus</h4>
+                            <p class="mb-4 text-white-50">Focused on Enteral/Clinical Nutrition</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Animated Background -->
+            <div class="position-absolute w-100 h-100 top-0 start-0" style="background: radial-gradient(circle at center, rgba(255,0,255,0.1) 0%, transparent 70%); pointer-events: none;"></div>
+        </div>
+        <!-- Business Segments End -->
+        
+
+
+        <style>
+            /* Global Presence Map Section */
+.containers-fluid {
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Title and Description */
+.text-secondary {
+    color: #6c55f9 !important;
+}
+
+p.fs-5 {
+    color: #bbbbbb;
+}
+
+/* World Map Styling */
+.world-map {
+    position: relative;
+    max-width: 100%;
+    height: 500px;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/World_map_blank_without_borders.svg/1920px-World_map_blank_without_borders.svg.png') no-repeat center;
+    background-size: contain;
+}
+
+/* SVG Connection Lines */
+.connection-line {
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: drawLine 2s linear forwards;
+}
+
+/* Animated Line Effect */
+@keyframes drawLine {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+/* Location Markers */
+.location-markers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 30px;
+    position: absolute;
+    bottom: -60px;
+    width: 100%;
+    padding: 20px;
+}
+
+.marker {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+/* Pulsating Dots */
+.pulse-dot {
+    width: 15px;
+    height: 15px;
+    background-color: #6c55f9;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(108, 85, 249, 0.8);
+    animation: pulse 1.5s infinite;
+}
+
+/* Pulsating Effect */
+@keyframes pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.5);
+        opacity: 0.6;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+}
+
+        </style>
+        <!-- Global Presence Map Start -->
+        <div class="containers-fluid py-5 position-relative overflow-hidden">
+            <div class="container py-5">
+                <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 text-secondary mb-3">Our Global Presence</h1>
+                    <p class="fs-5">We Have A Significant Presence In Most International Markets In The Regions Of South East Asia, GCC, LATAM, Russia & CIS And Africa.</p>
+                </div>
+                <div class="position-relative wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- World Map Container -->
+                    <div class="world-map">
+                        <!-- Animated Connection Lines -->
+                        <svg class="position-absolute w-100 h-100" style="top: 0; left: 0;">
+                            <defs>
+                                <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+                                    <circle cx="5" cy="5" r="3" fill="#6c55f9"/>
+                                </marker>
+                            </defs>
+                            <!-- Connection Lines -->
+                            <path class="connection-line" d="M300,200 C400,150 500,250 600,200" stroke="#6c55f9" stroke-width="2" fill="none"/>
+                            <path class="connection-line" d="M300,200 C350,300 400,350 450,300" stroke="#6c55f9" stroke-width="2" fill="none"/>
+                            <path class="connection-line" d="M300,200 C500,150 600,100 700,150" stroke="#6c55f9" stroke-width="2" fill="none"/>
+                            <path class="connection-line" d="M300,200 C400,250 500,300 550,250" stroke="#6c55f9" stroke-width="2" fill="none"/>
+                            <path class="connection-line" d="M300,200 C450,200 600,250 750,200" stroke="#6c55f9" stroke-width="2" fill="none"/>
+                        </svg>
+                        <!-- Location Markers -->
+                        <div class="location-markers">
+                            <div class="marker marker-usa">
+                                <div class="pulse-dot bg-primary"></div>
+                            </div>
+                            <div class="marker marker-brazil">
+                                <div class="pulse-dot bg-primary"></div>
+                            </div>
+                            <div class="marker marker-india">
+                                <div class="pulse-dot bg-primary"></div>
+                            </div>
+                            <div class="marker marker-russia">
+                                <div class="pulse-dot bg-primary"></div>
+                            </div>
+                            <div class="marker marker-africa">
+                                <div class="pulse-dot bg-primary"></div>
+                            </div>
+                            <div class="marker marker-sea">
+                                <div class="pulse-dot bg-primary"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Global Presence Map End -->
+       <!-- Footer Start -->
+       <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-secondary mb-4">Contact Info</h4>
+                        <a href=""><i class="fa fa-map-marker-alt me-2"></i> #18/1, Sector-III, HUDA Techno Enclave, Hitech City, Madhapur, Hyderabad – 500081, Telangana, INDIA.</a>
+                        <a href=""><i class="fas fa-envelope me-2"></i> 
+                            info@pulsepharma.net</a>
+                        <a href=""><i class="fas fa-phone me-2"></i>+91 40 23119992</a><!----
+                        <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>-->
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-share fa-2x text-secondary me-2"></i>
+                            <a class="btn mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-secondary mb-4">Company</h4>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Home</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Who we are</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Our Team</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                        
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-secondary mb-4">Quick Links</h4>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Products</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Life at Pulse</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i>Our Footprint</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Manufacturing Facility</a>
+                        
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item">
+                        <h4 class="text-secondary mb-4">Newsletter</h4>
+                        <p class="text-white mb-3">We go by the philosophy, solving the unsolved, reaching the unreached and serving the unserved. We believe that health and wellbeing are the main sources of happiness for humankind.</p>
+                        <div class="position-relative mx-auto rounded-pill">
+                            <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
+                            <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-md-0">
+                    <span class="text-white"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end text-white">
+                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                    Designed By Sjv Coders.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+    
+<!-- JavaScript Libraries -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+</body>
+
+</html>

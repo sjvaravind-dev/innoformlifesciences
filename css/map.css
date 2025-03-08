@@ -1,0 +1,63 @@
+.world-map {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    background: linear-gradient(135deg, rgba(128, 0, 128, 0.1) 0%, rgba(75, 0, 130, 0.1) 100%);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.connection-line {
+    stroke-dasharray: 4;
+    animation: dash 20s linear infinite;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 1000;
+    }
+}
+
+.location-markers .marker {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.pulse-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.pulse-dot::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(108, 85, 249, 0.4);
+    animation: pulse 2s infinite;
+    top: -5px;
+    left: -5px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+/* Location Markers Positioning */
+.marker-usa { top: 35%; left: 20%; }
+.marker-brazil { top: 60%; left: 30%; }
+.marker-india { top: 45%; left: 65%; }
+.marker-russia { top: 25%; left: 70%; }
+.marker-africa { top: 55%; left: 50%; }
+.marker-sea { top: 55%; left: 75%; }
